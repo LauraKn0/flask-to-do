@@ -7,3 +7,6 @@ To get venv started on windows:
 Set-ExecutionPolicy Unrestricted -Scope Process
 .\env\Scripts\activate
 Set-ExecutionPolicy Default -Scope Process
+
+
+pip freeze > requirements.txt
